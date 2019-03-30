@@ -14,6 +14,9 @@
 		79C10429224F7579002296BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79C10427224F7579002296BF /* LaunchScreen.storyboard */; };
 		79C10432224F7640002296BF /* SelectVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C10431224F7640002296BF /* SelectVC.swift */; };
 		79C10436224F765A002296BF /* CheckVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C10435224F765A002296BF /* CheckVC.swift */; };
+		79C1043A224F7D14002296BF /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C10439224F7D14002296BF /* Drink.swift */; };
+		79C1043C224F7E5A002296BF /* DrinkOrder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C1043B224F7E5A002296BF /* DrinkOrder.swift */; };
+		79C1043E224F7F5D002296BF /* DrinkOrderRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C1043D224F7F5D002296BF /* DrinkOrderRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +30,9 @@
 		79C1042A224F7579002296BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		79C10431224F7640002296BF /* SelectVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectVC.swift; sourceTree = "<group>"; };
 		79C10435224F765A002296BF /* CheckVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckVC.swift; sourceTree = "<group>"; };
+		79C10439224F7D14002296BF /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		79C1043B224F7E5A002296BF /* DrinkOrder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkOrder.swift; sourceTree = "<group>"; };
+		79C1043D224F7F5D002296BF /* DrinkOrderRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkOrderRepository.swift; sourceTree = "<group>"; };
 		79D4D5CFB39E194A352AB140 /* Pods-CafeO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CafeO.release.xcconfig"; path = "Pods/Target Support Files/Pods-CafeO/Pods-CafeO.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,10 +87,8 @@
 		79C10430224F757F002296BF /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				79C10434224F7648002296BF /* Check */,
-				79C10433224F7643002296BF /* Select */,
-				79C10427224F7579002296BF /* LaunchScreen.storyboard */,
-				79C10422224F7577002296BF /* Main.storyboard */,
+				79C10438224F7AE3002296BF /* View */,
+				79C10437224F7ADD002296BF /* Model */,
 				79C1041E224F7577002296BF /* AppDelegate.swift */,
 			);
 			path = Source;
@@ -104,6 +108,27 @@
 				79C10435224F765A002296BF /* CheckVC.swift */,
 			);
 			path = Check;
+			sourceTree = "<group>";
+		};
+		79C10437224F7ADD002296BF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				79C10439224F7D14002296BF /* Drink.swift */,
+				79C1043B224F7E5A002296BF /* DrinkOrder.swift */,
+				79C1043D224F7F5D002296BF /* DrinkOrderRepository.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		79C10438224F7AE3002296BF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				79C10427224F7579002296BF /* LaunchScreen.storyboard */,
+				79C10422224F7577002296BF /* Main.storyboard */,
+				79C10433224F7643002296BF /* Select */,
+				79C10434224F7648002296BF /* Check */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		BD7ED5B79C94C6849AAA1887 /* Pods */ = {
@@ -241,7 +266,10 @@
 			files = (
 				79C10436224F765A002296BF /* CheckVC.swift in Sources */,
 				79C10432224F7640002296BF /* SelectVC.swift in Sources */,
+				79C1043A224F7D14002296BF /* Drink.swift in Sources */,
 				79C1041F224F7577002296BF /* AppDelegate.swift in Sources */,
+				79C1043C224F7E5A002296BF /* DrinkOrder.swift in Sources */,
+				79C1043E224F7F5D002296BF /* DrinkOrderRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
